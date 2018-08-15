@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin:0 auto;
   height: 100%;
@@ -71,3 +72,78 @@ div[class^='container footer'] {
   margin-top: 0%;
 }
 }
+=======
+body {
+  margin:0 auto;
+  height: 100%;
+  background-color: black;
+}
+header {
+  margin-top: 10px;
+  width: 100%;
+}
+.redessociales {
+  text-align: right;
+  display: inline-table;
+  margin-top: 10%;
+}
+.logo {
+  width:100%
+}
+.rojo {
+  background-color: red;
+}
+.verde {
+  background-color: green;
+}
+.azul {
+  background-color: blue;
+}
+.celeste {
+  background-color: #86bbec;
+}
+.contenido {
+  background-color: #fff;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.nav, .barra{
+  background-color: orange;
+  border-radius: 0px;
+  margin-left: 0px;
+}
+.user {
+  width: 100%;
+  margin-top: 25%;
+}
+img[class^='estiloimg']{
+  width: 8%;
+}
+table{
+  cursor: pointer;
+}
+p {
+  text-align: justify;
+}
+div[class^='container footer'] {
+  background-color: green;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-style: wavy;
+}
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}
+>>>>>>> 412d66726caeee56c66624279d97179c8fad7487
